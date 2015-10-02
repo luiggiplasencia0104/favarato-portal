@@ -1,0 +1,27 @@
+
+
+
+
+#sky{position:fixed; height:100%; width:100%; bottom:0; left:0; z-index:-3px; min-height:1200px;
+     background: #1D73B0; /* Old browsers */
+     background: -moz-linear-gradient(top,  #1D73B0 0%, #1D73B0 30%, #1D73B0 51%, #1D73B0 65%, #f2f5f6 92%);  /*FF3.6+ */
+     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1D73B0), color-stop(30%,#1D73B0), color-stop(51%,#1D73B0), color-stop(65%,#1D73B0), color-stop(92%,#f2f5f6));  /*Chrome,Safari4+ */
+     background: -webkit-linear-gradient(top,  #1D73B0 0%,#1D73B0 30%,#1D73B0 51%,#1D73B0 65%,#f2f5f6 92%);  /*Chrome10+,Safari5.1+ */
+     background: -o-linear-gradient(top,  #1D73B0 0%,#1D73B0 30%,#1D73B0 51%,#1D73B0 65%,#f2f5f6 92%); /* Opera 11.10+ */
+     background: -ms-linear-gradient(top,  #1D73B0 0%,#1D73B0 30%,#1D73B0 51%,#1D73B0 65%,#f2f5f6 92%);  /*IE10+*/ 
+     background: linear-gradient(top,  #1D73B0 0%,#1D73B0 30%,#1D73B0 51%,#1D73B0 65%,#f2f5f6 92%);  /*W3C */
+     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1D73B0', endColorstr='#f2f5f6',GradientType=0 ); /* IE6-9 */}
+#clouds{background:url('../img/clouds.png') repeat-x; z-index:-2px; width:100%; height:100%; position:fixed; top:0; left:0;}
+
+@-webkit-keyframes float-clouds {
+    0% {
+    background-position: 2400px 50%;
+}
+100% {
+    background-position: 0 50%;
+}
+}
+
+#clouds {-webkit-animation-name: float-clouds;-webkit-animation-duration: 95s;-webkit-animation-iteration-count: infinite;-webkit-animation-timing-function: linear;-moz-animation-name: float-clouds;-moz-animation-duration: 95s;-moz-animation-iteration-count: infinite;-moz-animation-timing-function: linear;}
+/* End of SKY AND CLOUDS */
+.scenario img{position:fixed;  bottom:0px; left:0;width:100%}

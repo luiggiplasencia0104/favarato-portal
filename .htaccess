@@ -1,0 +1,34 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-l
+RewriteRule ^(.+)$ index.php?url=$1 [QSA,L]
+
+<IfModule mod_expires.c>
+          ExpiresActive on
+
+          ExpiresByType image/jpg "access plus 60 days"
+          ExpiresByType image/png "access plus 60 days"
+          ExpiresByType image/gif "access plus 60 days"
+          ExpiresByType image/jpeg "access plus 60 days"
+          ExpiresByType image/JPG "access plus 60 minutes"
+
+          <FilesMatch ".(css)$">
+            # 3 days
+            ExpiresDefault A604800
+            Header append Cache-Control "public"
+          </FilesMatch>
+
+          <FilesMatch ".(xml|txt|html)$">
+            # 2 hours
+            ExpiresDefault A604800
+            Header append Cache-Control "public"
+          </FilesMatch>
+
+          ExpiresByType image/x-icon "access plus 1 month"
+
+          ExpiresByType text/javascript "access plus 1 week"
+          ExpiresByType application/x-javascript "access plus 1 week"
+          ExpiresByType application/javascript "access plus 1 week"
+          ExpiresDefault "access 60 minutes"
+</IfModule>

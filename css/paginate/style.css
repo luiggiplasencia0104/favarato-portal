@@ -1,0 +1,142 @@
+.seccion_paginacion{
+    float: left !important;
+    margin-top:-20px !important;
+    margin-bottom: 30px !important;
+}
+
+.pag_results{
+    float: right !important;
+    margin-top: 30px;
+}
+
+.jPaginate{
+    font-family: "Open Sans",Helvetica,Arial,sans-serif;
+    height:34px;
+    color:#a5a5a5;
+    font-size:small;  
+    margin-top: 20px;
+    width:100%;
+}
+.jPaginate a{
+    line-height:15px;
+    cursor:pointer;
+    padding:2px 5px;
+    margin:2px;
+    float:left;
+}
+.jPaginate span{
+    color:#000;
+    margin: 5px 25px 0 0;
+    font-family: "Open Sans",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+}
+.jPag-control-back{
+    position:absolute;
+    left:0px;
+}
+.jPag-control-front{
+    position:absolute;
+    top:0px;
+}
+.jPaginate span{
+    cursor:pointer;
+}
+ul.jPag-pages{
+    list-style-type:none;
+    margin:0px 0px 0px 0px;
+    padding:0px;
+}
+ul.jPag-pages li{
+    display:inline;
+    float:left;
+    padding:0px;
+    margin:0px;
+}
+ul.jPag-pages li a{
+    float:left;
+    padding:6px 10px;
+    font-weight: bold;
+    border: 1px solid #777; 
+    color:#0E7FF4;
+    border-radius: 4px;
+    background-color: #FFF;
+    font-weight: bold;
+    font-size: 16px;
+}
+span.jPag-current{
+    cursor:default;
+    font-weight:normal;
+    line-height:15px;
+    border: 1px solid #777; 
+    padding:6px 10px;
+    margin:2px;
+    float:left;
+    font-weight: bold;
+    border-radius: 4px;
+    color: #FFF; background-color: #0488CD;
+    font-size: 16px;
+}
+ul.jPag-pages li span.jPag-previous,
+ul.jPag-pages li span.jPag-next,
+span.jPag-sprevious,
+span.jPag-snext,
+ul.jPag-pages li span.jPag-previous-img,
+ul.jPag-pages li span.jPag-next-img,
+span.jPag-sprevious-img,
+span.jPag-snext-img{
+    height:22px;
+    margin:2px;
+    float:left;
+    line-height:18px;
+}
+
+ul.jPag-pages li span.jPag-previous,
+ul.jPag-pages li span.jPag-previous-img{
+    margin:2px 0px 2px 2px;
+    font-size:12px;
+    font-weight:bold;
+    width:10px;
+
+}
+ul.jPag-pages li span.jPag-next,
+ul.jPag-pages li span.jPag-next-img{
+    margin:2px 2px 2px 0px;
+    font-size:12px;
+    font-weight:bold;
+    width:10px;
+}
+span.jPag-sprevious,
+span.jPag-sprevious-img{
+    margin:2px 0px 2px 2px;
+    font-size:18px;
+    width:15px;
+    text-align:right;
+}
+span.jPag-snext,
+span.jPag-snext-img{
+    margin:2px 2px 2px 0px;
+    font-size:18px;
+    width:15px;
+    text-align:right;
+}
+
+span.jPag-sprevious-img{
+    background:transparent url("../../img/sprevious.png") no-repeat center right;
+    margin-top: 6px;
+}
+span.jPag-sprevious-img a{
+    width: 20px;
+    height: 20px;
+}
+
+span.jPag-snext-img{
+    background:transparent url("../../img/snext.png") no-repeat center left;
+    margin-top: 6px;
+}
+
+span.jPag-snext-img a{
+    width: 20px;
+    height: 20px;
+}
+
+

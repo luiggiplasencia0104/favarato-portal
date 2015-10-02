@@ -1,0 +1,129 @@
+form label.error{
+    padding-left:0px;
+    position: relative;
+    display: inline;
+    clear: both;
+    width: auto;  
+    margin: 0;
+    font-size: 10px;
+    text-align: left;
+    color: red;
+    margin-left: 8px;
+}
+
+form .margin-control-input{
+    margin: 0 0 20px;
+}
+
+/* FORMULARIO DE TESTIMONIOS */
+form label[for="txt_ins_test_nombres"].error{
+    padding-left:0px;
+    position: relative;
+    display: block;
+    clear: both;
+    width: auto;  
+    margin: 0;
+    font-size: 10px;
+    text-align: left;
+    color: red;
+    margin-left: 8px;
+}
+
+form label[for="txt_ins_test_email"].error{
+    padding-left:0px;
+    position: relative;
+    display: block;
+    clear: both;
+    width: auto;  
+    margin: 0;
+    font-size: 10px;
+    text-align: left;
+    color: red;
+    margin-left: 8px;
+}
+
+form label[for="txt_ins_test_testimonio"].error{
+    padding-left:0px;
+    position: relative;
+    display: block;
+    clear: both;
+    width: auto;  
+    margin: 0;
+    font-size: 10px;
+    text-align: left;
+    color: red;
+    margin-left: 8px;
+}
+
+form label[for="cbo_ins_test_paises"].error{
+    clear: both;
+    float: left;
+    position: absolute;
+    width: auto;  
+    margin: 29px 0 0 8px;
+    font-size: 10px;
+    text-align: left;
+    color: red;
+    display: block;
+    
+}
+
+.cajascalendar{  
+    background:  url("../../img/icon_calendar.png") no-repeat scroll right center transparent;
+    padding-right:17px;
+    width: 115px;
+}
+
+.cajastimer{  
+    background: url("../../img/time-clock2.png") no-repeat;
+    background-position: 104px; 
+    padding-right:117px;
+    width: 115px;
+}
+
+.cajasphone{ 
+    background: url("../../img/icon_phone.png") no-repeat scroll right center transparent;
+    padding-right:17px;    
+    width: 145px;
+}
+
+.cajascell{ 
+    background: url("../../img/icon_cell.png") no-repeat scroll right center transparent;
+    padding-right:17px;    
+    width: 145px;
+}
+
+.cajasfax{  
+    background: url("../../img/icon_fax.png") no-repeat scroll right center transparent;
+    padding-right:17px;
+    width: 145px;
+}
+
+.cajassearch{   
+    background: url("../../img/icon_search.png") no-repeat scroll right center transparent;
+    padding-right:17px;
+    /* no ponerle width, manejarlo con estilos del template */
+}
+
+.cajasdireccion{   
+    background: url("../../img/icon_address.png") no-repeat scroll right center transparent;
+    padding-right:17px;
+    /* no ponerle width, manejarlo con estilos del template */
+}
+
+.cajasemail{   
+    background: url("../../img/icon_email.png") no-repeat scroll right center transparent;
+    padding-right:17px;
+    /* no ponerle width, manejarlo con estilos del template */
+}
+
+.cajasuser{   
+    background: url("../../img/icon_user.png") no-repeat scroll right center transparent;
+    padding-right:17px;
+    /* no ponerle width, manejarlo con estilos del template */
+}
+
+
+
+
+
